@@ -55,7 +55,7 @@ symfony serve -d
 ---
 - An unauthenticated user is not allowed to purchase a product.
 - When a user clicks on the "Buy the product" link, it will open a Stripe window that will allow the user to enter their credit card information in order to make the purchase.
-- Confirm purchage to the user when it is validate.
+- Confirm purchase to the user when it is validate.
 ---
 - Commit your changes to the repository.
 
