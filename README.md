@@ -1,5 +1,11 @@
 # Symfony Test Application
 
+## Requirements
+- PHP 7.3
+- Docker & Docker compose
+- Symfony CLI
+- Node & NPM
+
 ## Clone repository
 ```
 git clone git@github.com:yanngallis/symfony-test.git
@@ -27,12 +33,12 @@ npm run build
 
 ## Launch migrations
 ```
-php bin/console d:m:m
+symfony d:m:m
 ```
 
 ## Launch fixtures
 ```
-php bin/console doctrine:fixtures:load
+symfony doctrine:fixtures:load
 ```
 
 ## Launch server
