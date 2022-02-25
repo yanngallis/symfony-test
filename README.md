@@ -34,3 +34,8 @@ php bin/console d:m:m
 ```
 php bin/console doctrine:fixtures:load
 ```
+
+## Launch server
+```
+symfony serve -d
+```
