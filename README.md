@@ -49,7 +49,7 @@ symfony serve -d
 ## Application must look like this
 <img src="https://i.ibb.co/LS5yxSb/Capture-d-e-cran-2022-02-25-a-17-43-29.png" />
 
-## Result must look like this
+## Result must look like this (youtube link on image)
 [![IMAGE_ALT](https://img.youtube.com/vi/KzEkiBsGAdo/0.jpg)](https://youtu.be/KzEkiBsGAdo)
 
 
