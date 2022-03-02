@@ -49,6 +49,17 @@ symfony serve -d
 ## Application must look like this
 <img src="https://i.ibb.co/LS5yxSb/Capture-d-e-cran-2022-02-25-a-17-43-29.png" />
 
+## Result must look like this
+<iframe
+    width="640"
+    height="480"
+    src="https://youtu.be/KzEkiBsGAdo"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
 
 ## Test instructions
 - Clone the repository.
