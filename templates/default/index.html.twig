@@ -4,15 +4,17 @@
 
 {% block body %}
 <div class="example-wrapper">
-    <h1>Symfony Test Application</h1>
+    <h1 data-controller="hello"></h1><br>
+    <a href="{{ path('app_logout') }}">Logout</a>
 </div>
+<div style="width: 100%; border: 1px solid {{ css }};">{{ text }}</div>
 
 <div>
     {% for product in products %}
         <h2>{{ product.title }}</h2>
         <h3>{{ product.price }} €</h3>
         
-        <a href="#">Buy this product</a>
+        <a href="{{ path('app_buy', {id: product.id}) }}">Buy this product</a>
     {% endfor %}
 </div>
 {% endblock %}
