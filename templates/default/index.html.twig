@@ -8,11 +8,18 @@
 </div>
 
 <div>
+            {% if payment=='success' %}
+				<p style="border: green solid thin">You purchase is validated!</p>
+			{% elseif payment=='cancel' %}
+				<p style="border: red solid thin">You purchase is cancelled ...</p>
+	        {% endif %}
+
     {% for product in products %}
         <h2>{{ product.title }}</h2>
         <h3>{{ product.price }} €</h3>
         
-        <a href="#">Buy this product</a>
+        <a href="{{ path("buy_product", {'product_id': product.id }) }}">Buy this product</a>
     {% endfor %}
 </div>
+
 {% endblock %}
